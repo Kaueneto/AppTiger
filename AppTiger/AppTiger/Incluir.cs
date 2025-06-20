@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
 
@@ -20,13 +13,11 @@ namespace Apptiger
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
 
-        }
         private static readonly string ConnStr =
             $"Host={Environment.GetEnvironmentVariable("DB_HOST")};" +
             $"Port={Environment.GetEnvironmentVariable("DB_PORT")};" +
@@ -40,10 +31,8 @@ namespace Apptiger
             try
             {
                 using (var conn = new Npgsql.NpgsqlConnection(ConnStr))
-
                 {
                     conn.Open();
-
 
                     const string sql = @"
 INSERT INTO titulos

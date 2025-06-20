@@ -1,0 +1,23 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs and caches
+*.log
+*.cache
+
+
+
+# Others
+*.pdb

@@ -33,8 +33,6 @@
             groupBox1 = new GroupBox();
             rdPrevisao = new RadioButton();
             rdConfirmado = new RadioButton();
-            groupBox2 = new GroupBox();
-            label2 = new Label();
             txtCodigoConta = new TextBox();
             label3 = new Label();
             cbConta = new ComboBox();
@@ -110,27 +108,6 @@
             rdConfirmado.TabStop = true;
             rdConfirmado.Text = "Confirmado";
             rdConfirmado.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            groupBox2.BackColor = Color.LightSlateGray;
-            groupBox2.Controls.Add(label2);
-            groupBox2.ForeColor = SystemColors.ControlLightLight;
-            groupBox2.Location = new Point(-25, -27);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(973, 75);
-            groupBox2.TabIndex = 3;
-            groupBox2.TabStop = false;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(52, 41);
-            label2.Name = "label2";
-            label2.Size = new Size(129, 20);
-            label2.TabIndex = 0;
-            label2.Text = "Incluir lançamento ";
             // 
             // txtCodigoConta
             // 
